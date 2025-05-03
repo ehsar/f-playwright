@@ -1,0 +1,4 @@
+Step: Navigate to Sauce Demo login page => Expected: Showing Sauce Demo login page
+Step: Fill in username => Expected: Username is filled
+Step: Fill in password => Expected: Password is filled
+Step: Click login button => Expected: User is redirect to product page

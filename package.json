@@ -10,7 +10,12 @@
     "export:xray": "tsx scripts/export-xray.ts",
     "clean:steps": "rm -f tmp-step-store.json xray-all-export.json",
     "clean:xray": "rm -f xray-all-export.json",
-    "test:with-export": "npm run clean:xray && playwright test && npm run export:xray"
+    "test:with-export": "npm run clean:xray && playwright test && npm run export:xray",
+    "test:with-allure": "playwright test --reporter=list,allure-playwright",
+    "allure:generate": "allure generate ./allure-results --clean",
+    "allure:open": "allure open ./allure-report",
+    "generate:test": "tsx scripts/generate-test.ts",
+    "generate:page": "tsx scripts/generate-page.ts"
   },
   "keywords": [],
   "author": "",
@@ -18,11 +23,14 @@
   "devDependencies": {
     "@playwright/test": "^1.51.1",
     "@types/node": "^22.14.1",
+    "allure-commandline": "^2.34.0",
+    "allure-playwright": "^3.2.1",
     "ts-node": "^10.9.2",
     "tsx": "^4.19.3",
     "typescript": "^5.8.3"
   },
   "dependencies": {
-    "axios": "^1.8.4"
+    "axios": "^1.8.4",
+    "inquirer": "^12.6.0"
   }
 }

@@ -1,6 +1,6 @@
 [
   {
-    "testKey": "JIRA-124",
+    "testKey": "JIRA-123",
     "steps": [
       {
         "action": "Navigate to Sauce Demo login page",
@@ -17,10 +17,6 @@
       {
         "action": "Click login button",
         "expectedResult": "User is redirect to product page"
-      },
-      {
-        "action": "Check error message",
-        "expectedResult": "Showing error message"
       }
     ]
   }

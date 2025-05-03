@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","1831","Failed login if invalid username","chromium","Sat May 03 21:10:41 WIB 2025","passed","Sat May 03 21:10:43 WIB 2025","All Case > Login - Negative Case","login.spec.ts","",""
+"","1824","Failed login if invalid password","chromium","Sat May 03 21:10:41 WIB 2025","passed","Sat May 03 21:10:43 WIB 2025","All Case > Login - Negative Case","login.spec.ts","",""
+"","2010","Success login","chromium","Sat May 03 21:10:41 WIB 2025","passed","Sat May 03 21:10:43 WIB 2025","All Case > Login - Positive Case","login.spec.ts","",""
+"","1818","Failed login if invalid username and password","chromium","Sat May 03 21:10:41 WIB 2025","passed","Sat May 03 21:10:43 WIB 2025","All Case > Login - Negative Case","login.spec.ts","",""
