@@ -1,0 +1,28 @@
+{
+  "name": "learn-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "export:xray": "tsx scripts/export-xray.ts",
+    "clean:steps": "rm -f tmp-step-store.json xray-all-export.json",
+    "clean:xray": "rm -f xray-all-export.json",
+    "test:with-export": "npm run clean:xray && playwright test && npm run export:xray"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.14.1",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "axios": "^1.8.4"
+  }
+}

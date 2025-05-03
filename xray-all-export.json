@@ -1,0 +1,32 @@
+[
+  {
+    "testKey": "JIRA-124",
+    "steps": [
+      {
+        "step": 1,
+        "action": "Navigate to Sauce Demo login page",
+        "result": "Showing Sauce Demo login page"
+      },
+      {
+        "step": 2,
+        "action": "Fill in username",
+        "result": "Username is filled"
+      },
+      {
+        "step": 3,
+        "action": "Fill in password",
+        "result": "Password is filled"
+      },
+      {
+        "step": 4,
+        "action": "Click login button",
+        "result": "User is redirect to product page"
+      },
+      {
+        "step": 5,
+        "action": "Check error message",
+        "result": "Showing error message"
+      }
+    ]
+  }
+]
